@@ -3,7 +3,7 @@ import ImageCard from "./ImageCard";
 
 const MusicCard = ({ data }) => {
   return (
-    <article className="flex justify-around sm:justify-center flex-wrap shrink-0 gap-x-2 gap-y-6 sm:gap-8">
+    <article className="grid lg:grid-cols-6 md:grid-cols-3 grid-cols-2 gap-3 lg:ml-4 ml-[3rem]">
       {data?.map((item) => {
         const {
           id,
